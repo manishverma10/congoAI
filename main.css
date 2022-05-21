@@ -1,0 +1,121 @@
+.botui-app-container {
+   
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    height: 380px;
+    width: 360px;
+    border-radius: 3%;
+    color: white;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+
+.botui-message-content.text {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: #4a4a4a;
+    font-family: 'Lato', sans-serif;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.botui-message-content.loading {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: #4a4a4a;
+    border-radius: 4px;
+}
+
+.botui-actions-buttons {
+    text-align: center;
+}
+
+button.botui-actions-buttons-button {
+    outline: none !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+.botui-message-content.human {
+    background-color: #5a46ff;
+    color: #fff;
+}
+
+.botWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.botWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.chat-circle_robot {
+    height: 50px;
+}
+#chat-circle {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0px 3px 16px 0px rgba(246, 72, 72, 0.5), 0 3px 1px -2px rgba(246, 72, 72, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+}
+#chat-circle,
+.chat-box-welcome__header,
+.chat-box-header,
+.chat-msg.bot>.msg-avatar {
+    background-image: linear-gradient( to bottom right, rgba(168,	224,	99, 1), rgba(246, 72, 72, 1));
+}
+
+.chat-circle_robot {
+    height: 50px;
+}
+#chat-circle {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0px 3px 16px 0px rgba(246, 72, 72, 0.5), 0 3px 1px -2px rgba(246, 72, 72, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+}
+#chat-circle,
+.chat-box-welcome__header,
+.chat-box-header,
+.chat-msg.bot>.msg-avatar {
+    background-image: linear-gradient( to bottom right, rgba(168,	224,	99, 1), rgba(246, 72, 72, 1));
+}
+
+.introBot{
+    height: 140px;
+    background-color: rgb(186, 150, 50);
+    color: #fff;
+    border-radius: 3%;
+    z-index: -1;
+    font-size: 18px;
+    text-align: center;
+}
+.introBot p{
+    padding-top: 10%;
+}
